@@ -1,0 +1,18 @@
+ADENTRO DE LA CARPETA
+-git status
+-git add .
+-git commit -m "COMENTARIO"
+-
+-
+-git branch -M main
+-git remote add origin https://github.com/willian1390/CARPETA-CREADA.git
+-git push -u origin main
+-git log 	Ver cambios
+
+
+ACTUALIZAR CAMBIOS
+ADENTRO DE LA CARPETA
+-git status
+-git add .
+-git commit -m "COMENTARIO"
+-git push -u origin main
