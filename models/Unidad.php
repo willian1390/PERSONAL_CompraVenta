@@ -11,7 +11,7 @@
         }
 
         /* TODO: Listar Registro por ID en especifico */
-        public function get_unidad_x_cat_id($und_id){
+        public function get_unidad_x_und_id($und_id){
             $conectar=parent::Conexion();
             $sql="SP_L_UNIDAD_02 ?";
             $query=$conectar->prepare($sql);
