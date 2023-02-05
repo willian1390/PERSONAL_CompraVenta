@@ -54,5 +54,18 @@
       $empresa->delete_empresa($_POST["emp_id"]);
       break;
       
+      /* TODO: Listar Combo */
+        case "combo";
+            $datos=$empresa->get_empresa_x_com_id($_POST["com_id"]);
+            if(is_array($datos)==true and count($datos)>0){
+                $html="";
+                $html.="<option selected>Seleccionar</option>";
+                foreach($datos as $row){
+                    $html.= "<option value='".$row["EMP_ID"]."'>".$row["EMP_NOM"]."</option>";
+                }
+                echo $html;
+            }
+            break;
+
   }
 ?>
