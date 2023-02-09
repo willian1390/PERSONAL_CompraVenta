@@ -1,3 +1,5 @@
+use CompraVenta
+
 --#############################################
 --LISTAR TODOS LOS REGISTROS POR USUARIO
 CREATE PROCEDURE SP_L_USUARIO_01

@@ -1,3 +1,4 @@
+use CompraVenta
 --#############################################
 --LISTAR TODOS LOS REGISTROS POR SUCURSAL
 CREATE PROCEDURE SP_L_PROVEEDOR_01

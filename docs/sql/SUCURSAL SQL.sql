@@ -1,3 +1,5 @@
+use CompraVenta
+
 --#############################################
 --LISTAR TODOS LOS REGISTROS POR SUCURSAL
 CREATE PROCEDURE SP_L_SUCURSAL_01

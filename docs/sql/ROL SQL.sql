@@ -1,4 +1,4 @@
-
+use CompraVenta
 
 --#############################################
 --LISTAR TODOS LOS REGISTROS POR SUCURSAL
