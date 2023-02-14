@@ -1,7 +1,7 @@
 <?php
     class Sucursal extends Conectar{
         /* TODO: Listar Registros */
-        public function get_sucursal_x_com_id($emp_id){
+        public function get_sucursal_x_emp_id($emp_id){
             $conectar=parent::Conexion();
             $sql="SP_L_SUCURSAL_01 ?";
             $query=$conectar->prepare($sql);
